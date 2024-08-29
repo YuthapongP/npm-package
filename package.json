@@ -77,5 +77,11 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuthapongP/npm-package/issues"
+  },
+  "homepage": "https://github.com/YuthapongP/npm-package#readme"
 }

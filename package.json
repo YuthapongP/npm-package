@@ -1,5 +1,5 @@
 {
-  "name": "nicky13-npm-package",
+  "name": "@nicky13-ui/awesome-ui",
   "version": "1.0.3",
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "type": "module",
@@ -64,7 +64,7 @@
     "babel-plugin-polyfill-corejs3": "^0.10.6",
     "babel-plugin-polyfill-regenerator": "^0.6.2",
     "babel-plugin-styled-components": "^2.1.4",
-    "nicky13-npm-package": "^1.0.2",
+    "nicky13-npm-package": "^1.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rollup-plugin-dts": "^6.1.1",

@@ -9,7 +9,7 @@ const preview: Preview = {
       },
     },
     backgrounds: {
-      default: "dark", // Set the default background color
+      default: "dark",
       values: [
         { name: "light", value: "#ffffff" }, // Light background
         { name: "dark", value: "#333333" }, // Dark background

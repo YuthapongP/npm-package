@@ -10,9 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/YuthapongP/npm-package.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/nicky13"
-  },
   "eslintConfig": {
     "extends": [
       "plugin:storybook/recommended"

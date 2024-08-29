@@ -6,9 +6,6 @@
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "./dist/index.d.ts",
-  "publishConfig": {
-    "@nicky:registry": "https://npm.pkg.github.com"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YuthapongP/npm-package.git"

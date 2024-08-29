@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "declarationDir": "dist/types",
+    "noEmit": false,
+    "emitDeclarationOnly": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "lib": ["ES2015", "DOM", "DOM.Iterable", "ESNext"]
+  },
+  "include": ["src/index.ts"],
+  "exclude": ["node_modules", "dist"]
+}

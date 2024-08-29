@@ -29,6 +29,11 @@
     "build2": "rollup -c",
     "build3": "tsc -p tsconfig.d.ts.json && npm run build2"
   },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.12"
+  },
   "dependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
@@ -59,7 +64,12 @@
     "babel-plugin-polyfill-corejs3": "^0.10.6",
     "babel-plugin-polyfill-regenerator": "^0.6.2",
     "babel-plugin-styled-components": "^2.1.4",
-    "rollup-plugin-dts": "^6.1.1"
+    "nicky13-npm-package": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "styled-components": "^6.1.12",
+    "vite-tsconfig-paths": "^5.0.1"
   },
   "license": "ISC"
 }

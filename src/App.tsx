@@ -1,5 +1,6 @@
+import { EllipsisLoaderCradle } from "nicky13-npm-package";
+import React from "react";
 import "./App.css";
-import { EllipsisLoaderCradle } from "./components";
 
 function App() {
   return <EllipsisLoaderCradle bgColor="red"></EllipsisLoaderCradle>;

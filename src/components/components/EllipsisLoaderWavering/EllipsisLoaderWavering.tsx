@@ -37,14 +37,16 @@ const EllipsisDot = styled.div<EllipsisDotProps>`
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: ${(props) => props.$bgColor ?? "#333"};
+  background: ${(props) =>
+    props.$bgColor || props.theme.colors.text.mainText || "#333"};
   animation: ${ellipsis1} 1.5s infinite;
 `;
 const EllipsisDot2 = styled.div<EllipsisDotProps>`
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  background: ${(props) => props.$bgColor ?? "#333"};
+  background: ${(props) =>
+    props.$bgColor || props.theme.colors.text.mainText || "#333"};
   animation: ${ellipsis1} 1.5s infinite 0.1s;
 `;
 const EllipsisDot3 = styled.div<EllipsisDotProps>`
@@ -59,14 +61,7 @@ const EllipsisLoaderWavering: React.FC<EllipsisLoaderWaveringProps> = ({
   bgColor,
   variants = "light",
 }) => {
-  const isColorPropsDefined = !!bgColor;
-  const theme = allThemes[variants] || allThemes.light;
-
-  const ellipsisColor = isColorPropsDefined
-    ? bgColor
-    : theme.colors.primary.dark;
-
-  console.log("ellipsisColor", ellipsisColor);
+  const ellipsisColor = bgColor ?? variants;
 
   return (
     <EllipsisLoaderWrapper>

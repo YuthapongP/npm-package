@@ -9,12 +9,7 @@ export interface DotsTypes extends CSSProperties {
 
 export type CradleVariantTokens = "dark" | "light" | "summer" | "spring";
 
-export type EllipsisLoaderCradleType =
-  | {
-      bgColor: CSSPropertyValueCradle<"color">;
-      variants?: never;
-    }
-  | {
-      bgColor?: never;
-      variants: CradleVariantTokens;
-    };
+export type EllipsisLoaderCradleType = {
+  bgColor: CSSPropertyValueCradle<"color">;
+  variants: CradleVariantTokens;
+};

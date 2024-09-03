@@ -3,7 +3,7 @@ import reset from "styled-reset";
 
 const GlobalStyles = createGlobalStyle`
   ${reset}
-  
+
   * {
     margin: 0;
     padding: 0;

@@ -3,7 +3,7 @@ import { CSSProperties } from "react";
 export type VariantTokens = "dark" | "light" | "summer" | "spring";
 
 export type EllipsisLoaderWaveringProps = {
-  bgColor: CSSPropertyValue<"color">;
+  bgColor?: CSSPropertyValue<"color">;
   variants?: never;
 };
 
